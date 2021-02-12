@@ -40,6 +40,6 @@ function callBackFn(result) {
 	    '<p>' + result['title'] + '</p>' +
 	    '<p><small>' + result['date'] + '</small></p></a>' +
 	    '<p>' + result['summary'] + '</p>'; 
-	$('#.details').html(projectHTML);
+	$('.details').html(projectHTML);
 	
 }
